@@ -1,0 +1,19 @@
+{
+    "name": "mgcodeur/mon_premier_package",
+    "description": "ceci est mon premier package",
+    "autoload": {
+        "psr-4": {
+            "Mgcodeur\\MonPremierPackage\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "mgcodeur",
+            "email": "mgcodeur@gmail.com"
+        }
+    ],
+    "require": {}
+}
